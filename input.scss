@@ -607,12 +607,15 @@ footer {
 .shopping-cart-wrapper {
     height: fit-content;
 }
-footer {
+.footer {
   display: block;
 }
 }
 
 @media screen and (max-width: 375px) {
+  .footer {
+  display: none;
+  }
   .main-wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
